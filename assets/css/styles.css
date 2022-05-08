@@ -17,7 +17,9 @@ body{
 }
 .contain{
 	overflow-y:hidden;
-	height:40vh;
+	height:60vh;
+	overflow-x:hidden;
+	
 }
 .rotate-slider{
 		position:relative;
