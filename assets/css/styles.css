@@ -14,7 +14,7 @@ body{
 	margin:0px;
 	padding:0px;
 	overflow-x:hidden;
-	font-family: "Poppins", sans-serif;
+	font-family: helvetica;
 	width:100%;
 	box-sizing:border-box;
 	
@@ -76,14 +76,28 @@ body{
 
 
 
-/*Edits Join US button*/
-#joinButton a{
-	background-color:#009BDE;
-	border-radius: 4px;
-}
+
  .navbar-nav a:hover {
         color: #009BDE;
  }
  .navbar-nav a.active {
         color: #009BDE;
     }
+
+ .navbar-nav a:hover {
+        color: #009BDE;
+ }
+ .navbar-nav a.active {
+        color: #009BDE;
+    }
+/*Edits Join US button*/
+#joinButton a{
+	background-color:#009BDE;
+	border-radius: 4px;
+}
+
+#joinButton a:hover{
+	background-color:white;
+	
+	
+}
