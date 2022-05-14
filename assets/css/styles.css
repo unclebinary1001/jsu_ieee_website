@@ -91,13 +91,34 @@ body{
         color: #009BDE;
     }
 /*Edits Join US button*/
-#joinButton a{
-	background-color:#009BDE;
-	border-radius: 4px;
+
+/* Sponsors slider */
+.demo-row {
+	background-color: #333;
+	padding: 50px 0;
+  }
+.sponsor-feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
 }
 
-#joinButton a:hover{
-	background-color:white;
-	
-	
+#id-sponsors .carousel {
+    margin-bottom: 20px;
+}
+#id-sponsors .item {
+    padding-bottom: 20px;
+}
+#id-sponsors .carousel-indicators {
+    bottom: -25px;
+}
+#join{
+	position:relative;
+	background-color:#009BDE;
+	border-bottom:15px solid red
 }

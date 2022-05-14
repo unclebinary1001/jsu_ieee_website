@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>jsu_demo_site</title>
+    <title>About</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/Team.css">
 </head>
 
@@ -39,6 +40,7 @@
                </div>
    </nav>
    <!--Nav Bar-->
+   <section class="position-relative py-4 py-xl-3"></section> 
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -48,9 +50,12 @@
     </div>
     <div class="container">
         <div class="row d-xl-flex">
-            <div class="col-md-12 offset-xl-0"><img class="border rounded-0 shadow d-xl-flex justify-content-xl-center" src="assets/img/JSU_Team_1.jpg"></div>
-        </div>
+            <div class="col-md-12 offset-xl-0">
+			<img class="border-0 shadow d-xl-flex justify-content-xl-center" style="border-radius: 4px;" src="assets/img/JSU_Team_1.jpg"></div>
+<section class="position-relative py-4 py-xl-3"></section>       
+	   </div>
     </div>
+	
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -68,7 +73,44 @@
                 <p>Our mission is to provide a social, technical, and professional community to the ECE student body. We want to help our ECE community gain knowledge, skills and networks that will help them through their academic and professional careers. While CMU IEEE holds many different kinds of events throughout the year, this year we are focusing mostly on social events.<br><br><br></p>
             </div>
         </div>
-    </div><footer class="text-center bg-dark">
+    </div> <!--Sponsors slider Start-->
+<div id= "bot" class="demo-row"style="background-color:#009BDE;bottom:0;">
+    <div class="container" id="id-sponsors">
+      <div class="text-center">
+      <h2 style="margin:20px 0; color:#fff"> Sponsors</h2>
+    </div>
+    <div id="sponsor-carousel" class="carousel slide" data-ride="carousel"> 
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox" >
+        <div class="item active">
+          <div class="row">
+            <div class="col-sm-3 col-xs-6">
+              <div class="sponsor-feature"><img alt="" src="assets/img/sponsor_logos/burns_mcdonnel.png" style="width: 200px;" /></div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+              <div class="sponsor-feature"><img alt="" src="assets/img/sponsor_logos/chick_fil_a.png" style="width: 155px;" /></div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+              <div class="sponsor-feature"><img alt="" src="assets/img/sponsor_logos/walmart.png" style="width: 200px; height: auto;" /></div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+              <div class="sponsor-feature"><img alt="" src="assets/img/sponsor_logos/entergy.jpg" style="width: 200px;" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+	
+    <!--Sponsors slider Start-->
+<footer id = "bot" class="text-center"style="background-color:rgb(1,30,65);";>
     <div class="container text-white py-4 py-lg-5">
         <ul class="list-inline">
             <li class="list-inline-item me-4"><a class="link-light" href="#">About Us</a></li>
@@ -89,6 +131,7 @@
         <p class="text-muted mb-0">Copyright © 2022 JSU IEEE</p>
     </div>
 </footer>
+
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
