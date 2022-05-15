@@ -28,7 +28,7 @@
 	line-height:2
 }
 
-.title h1 {
+.title p {
 	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
 	background-size: cover;
 	color: transparent;
@@ -39,7 +39,7 @@
 	margin: 10px 0;
 }
 
-*/
+
 @keyframes tipsy {
   0 {
     transform: translateX(-50%) translateY(-50%) rotate(0deg);
@@ -52,7 +52,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   
-}
+}*/
 
 .title p {
   color: #fffbf1;
@@ -133,7 +133,7 @@ body {
 
 @keyframes shring-animation {
   0% {
-    background-position: 0 0;
+    background-position: 0;
     opacity: 0;
     width: 0;
   }
@@ -171,3 +171,4 @@ body {
     border-color: transparent;
   }
 }
+/*hi*/

@@ -122,3 +122,17 @@ body{
 	background-color:#009BDE;
 	border-bottom:15px solid red
 }
+#joinButton a{
+	background-color:#009BDE;
+	border-radius: 4px;
+}
+#joinButton a:hover{
+	background-color:white;
+	color: #009BDE;
+	border-radius: 4px;
+}
+#joinButton a.active{
+	background-color:white;
+	color: #009BDE;
+	border-radius: 4px;
+}
