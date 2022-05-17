@@ -38,7 +38,7 @@
 	font-size: 120px;
 	margin: 10px 0;
 }
-
+*/
 
 @keyframes tipsy {
   0 {
@@ -52,7 +52,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   
-}*/
+}
 
 .title p {
   color: #fffbf1;
@@ -97,10 +97,10 @@ body {
 
 
 .containere{
-  position:absolute;
-	width:35%;
-	margin-top:3.4%;
-	margin-left:7%;
+	
+	margin-left:3%;
+	padding:25px;
+	width:100%;
 	text-align:center;
 }
 
@@ -108,12 +108,12 @@ body {
   color: black;
   font-family: 'Fira Code', monospace;
   font-weight: 800;
-  font-size: 20px;
-  margin: 0 0 0 35%;
+  font-size: clamp(2vw,1.3vw,1.25vw);
+  margin: 0 0 0 25%;
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
-  width: 170px;
+  width: 40%;
   animation: type 2s steps(40,end) forwards;
 }
 
@@ -123,8 +123,8 @@ body {
   margin: 0 auto auto auto;
   background: linear-gradient(to right, #f4615c, #f23c3c,#f90000);
   font-weight: 800;
-  font-size: 100px;  
-  width: 460px;
+  font-size:clamp(6.4vw,5.32vw,5vw);  
+  width: 90%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   overflow: hidden;
@@ -148,9 +148,9 @@ body {
     border-right: 1px solid #009BDE;
   }
   100% {
-    background-position: 400px 0;
+    background-position: 400px ;
     opacity: 1;
-    border-right: 1px solid #009BDE;
+    border-right: 2px solid red;
   }
 }
 
