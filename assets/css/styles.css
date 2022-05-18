@@ -119,9 +119,11 @@ body{
     bottom: -25px;
 }
 #join{
+	padding:10px;
 	position:relative;
 	background-color:#009BDE;
-	border-bottom:15px solid red
+	border-bottom:15px solid red;
+	text-align: center;
 }
 #joinButton a{
 	background-color:#009BDE;
