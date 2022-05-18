@@ -148,6 +148,9 @@ h5 {
   }
 }
 @media only screen and (max-height: 900px) and (max-width:600px){
+.about{
+	font-size:clamp(6vw,6vw,6.5vw);
+}
 /*National IEEE*/
 .box1{
 	padding:20px;

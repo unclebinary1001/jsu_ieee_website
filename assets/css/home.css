@@ -153,6 +153,23 @@ body{
 .image img {
   display: block;
 }
+.slide1{
+	background:url("bgimg/ieeet.jpg");
+	background-size:100% 100%; 
+	background-repeat:no-repeat;
+}
+.slide2{
+	background:url("bgimg/ieee22.jpg");
+	background-size:100% 100%; 
+	background-repeat:no-repeat;
+	
+}.slide3{
+	background:url("bgimg/outside2.jpg");
+	background-size:100% 100%; 
+	background-repeat:no-repeat;
+}
+
+
 
 
 
