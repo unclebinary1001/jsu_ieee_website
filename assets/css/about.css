@@ -1,14 +1,219 @@
-body{
-	margin:0px;
-	padding:0px;
-	overflow-x:hidden;
-	font-family: "Poppins", sans-serif;
-	width:100%;
-	box-sizing:border-box;
-	
-
-	
+#dropCap:first-letter{
+    color:red;
+    font-weight: bold;
+    font-size: 70px;
+    float: left;
+    line-height: 60px;
+    padding-right: 8px;
+    margin-top: -3px;
 }
 
+.dropContain{
+	
+    width: 95%;
+    transition: all 0.3s;
+}
+.dropContain p{
+		position:relative;
+    line-height: 1.5;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+}
+.container1{
+	display:flex;
+	position:relative;
+}
+.sizeimg{
+	margin:auto;
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	
+}
+img{
+	box-shadow:red;
+}
+/*About*/
+.about{
+	font-size:clamp(2vw,2vw,2.5vw);
+}
+/*National IEEE*/
+.box1{
+	display:flex;
+	position:relative;
+	 align-items:center;
+	 padding:10px;
+}
+.layouth{
+	position:absolute;
+	width:40%;
+	margin-left:1%;
+	text-align:center;
+
+}
+.layoutp{
+	position:absolute;
+	margin-top:5%;
+	margin-left:45%;
+	width:50%;
+	font-size:clamp(15px,20px,25px);
+}
+
+/*Who are JSU IEEE*/
+.box2{
+	display:flex;
+	position:relative;
+	 align-items:center;
+	 padding:10px;
+}
+.layouth2{
+	position:absolute;
+	width:40%;
+	margin-left:55%;
+	text-align:center;
 
 
+}
+.layoutp2{
+	position:absolute;
+	margin-top:5%;
+	margin-left:5%;
+	width:50%;
+	font-size:clamp(15px,20px,25px);
+}
+
+/*JSU IEEE Chapter Mission*/
+.box3{
+	display:flex;
+	position:relative;
+	 align-items:center;
+	 padding:10px;
+}
+.layouth3{
+	position:absolute;
+	width:40%;
+	margin-left:1%;
+	text-align:center;
+
+}
+.layoutp3{
+	position:absolute;
+	margin-top:5%;
+	margin-left:45%;
+	width:50%;
+	font-size:clamp(15px,20px,25px);
+}
+
+h5 {
+  font-size: 5vw;
+  font-weight: 900;
+  color: red;
+  
+  --x-offset: -0.0625em;
+  --y-offset: 0.0625em;
+  --stroke: 0.025em;
+  --background-color: white;
+  --stroke-color: lightblue;
+  
+  text-shadow: 
+    
+    var(--x-offset)
+    var(--y-offset)
+    0px
+    var(--background-color), 
+    
+    calc( var(--x-offset) - var(--stroke) )
+    calc( var(--y-offset) + var(--stroke) )
+    0px
+    var(--stroke-color);
+  
+}
+
+@supports ( text-shadow: 1px 1px 1px 1px black ) {
+  h5 {
+    text-shadow:
+      
+      var(--x-offset)
+      var(--y-offset)
+      0px
+      0px
+      var(--background-color), 
+      
+      var(--x-offset) 
+      var(--y-offset)
+      var(--stroke)
+      0px
+      var(--stroke-color);
+    
+  }
+}
+@media only screen and (max-height: 900px) and (max-width:600px){
+/*National IEEE*/
+.box1{
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	align-items:center;
+	
+}
+.layouth{
+	margin-left:0;
+	width:100%;
+	font-size:clamp(7vw,7vw,7.5vw);
+	text-align:center;
+
+}
+.layoutp{
+	
+	margin-top:15%;
+	margin-left:0;
+	width:100%;
+	font-size:clamp(15px,20px,25px);
+}
+
+/*Who are JSU IEEE*/
+.box2{
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	align-items:center;
+}
+.layouth2{
+
+	margin-left:0;
+	width:100%;
+	font-size:clamp(7vw,7vw,7.5vw);
+	text-align:center;
+
+}
+.layoutp2{
+	margin-top:15%;
+	margin-left:0;
+	width:100%;
+	font-size:clamp(15px,20px,25px);
+}
+
+/*JSU IEEE Chapter Mission*/
+.box3{
+	padding:20px;
+	display:flex;
+	flex-direction:column;
+	width:100%;
+	align-items:center;
+}
+.layouth3{
+	margin-left:0;
+	width:100%;
+	font-size:clamp(7vw,7vw,7.5vw);
+	text-align:center;
+
+}
+.layoutp3{
+	margin-top:25%;
+	margin-left:0;
+	width:100%;
+	font-size:clamp(15px,20px,25px);
+}
+}

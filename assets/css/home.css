@@ -235,7 +235,7 @@ body{
 }*/
 @media only screen and (max-width: 800px) {
 	body{
-		background-size:
+		
 	}
 	
   .flexbox-container{
@@ -296,12 +296,8 @@ body{
 
 
 }
-@media only screen (max-width: 500px) {
-body{
-	background-image: url("bgimg/csetnmb.jpg");
-	background-size:contain;
-background-position:center;
-}
+@media only screen and (max-height: 900px) and (max-width:550px) {
+
 .sliderbg{
 	position:relative;
 	
@@ -311,6 +307,6 @@ background-size:cover;
 background-position:center;
 }
 .contain{
-	height:40vh;
+	height:35vh;
 }
 }
