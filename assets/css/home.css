@@ -87,7 +87,7 @@
 		position:relative;
 		margin: 5em auto;	
 		width: 100%;
-		padding:20px;
+		
 		
 	}
 .rotate-slider ul.slides{
@@ -306,7 +306,7 @@ background-size:cover;
 background-position:center;
 }
 .contain{
-	height:35vh;
+	height:40vh;
 }
 #car{
 	height:25vh;
