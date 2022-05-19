@@ -306,6 +306,7 @@ background-size:cover;
 background-position:center;
 }
 .contain{
+	display:flex;
 	height:50vh;
 }
 #car{
