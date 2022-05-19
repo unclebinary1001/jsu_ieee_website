@@ -128,9 +128,9 @@
 	.rotate-slider ul.slides li:nth-of-type(6){background: url("rsliderimg/jpgimg/inside7.jpg");background-size:contain; background-repeat:no-repeat;border-radius:15px;}
 	.rotate-slider ul.slides li .inner{
 		box-sizing: border-box;
-		padding: 30px;
-		height: 90%;
-		width: 95%;
+		padding: 2em;
+		height: 100%;
+		width: 100%;
 	}
 .image img {
   display: block;
