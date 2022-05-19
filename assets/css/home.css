@@ -306,8 +306,9 @@ background-size:cover;
 background-position:center;
 }
 .contain{
-	height:40vh;
-	width:90%;
+	height:35vh;
+	padding:10px;
+	width:99%;
 }
 #car{
 	height:25vh;
