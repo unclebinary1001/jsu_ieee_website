@@ -313,8 +313,8 @@ body{
 
 
 }
-@media only screen and (max-height: 900px) and (max-width:550px) {
 
+@media only screen and (max-height: 900px) and (max-width:600px){
 .sliderbg{
 	position:relative;
 	
@@ -326,4 +326,8 @@ background-position:center;
 .contain{
 	height:35vh;
 }
+#care{
+	height:10vh;
 }
+}
+
