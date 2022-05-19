@@ -2,8 +2,8 @@
 $(function(){
 	/* Settings */
 	var rotateSlider = {
-	  slideHeight : 260px,
-	  slideWidth : 480px,
+	  slideHeight : 260,
+	  slideWidth : 480,
 	};
   
 	/* Do Math and set properties */
