@@ -307,8 +307,9 @@ background-position:center;
 }
 .contain{
 	display:flex;
+	justify-content:center;
 	height:auto;
-	width: auto;
+	
 }
 #car{
 	height:25vh;
