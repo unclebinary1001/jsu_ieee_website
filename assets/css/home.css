@@ -5,27 +5,8 @@
     position: relative;
   }
 }
-*{
-	margin:0;
-	padding:0;
+ 
 
-}
-body{
-	margin:0px;
-	padding:0px;
-	overflow-x:hidden;
-	font-family: "Poppins", sans-serif;
-	width:100%;
-	
-	box-sizing:border-box;
-	background-image: url("rsliderimg/csetn.jpg");
-	background-repeat:no-repeat;
-	background-color:black;
-	background-size: 100% 100%;
-	background-attachment: fixed;
-
-	
-}
 
 .flexboxbg{
 	
@@ -326,8 +307,8 @@ background-position:center;
 .contain{
 	height:35vh;
 }
-#care{
-	height:10vh;
+#car{
+	height:25vh;
 }
 }
 

@@ -3,12 +3,37 @@
 	display:flex;
 	position:relative;
 	margin:auto;
+	width:50%;
+	height:5%;
+}
+.txt{
+	padding:10px;
+}
+h4{
+	font-size:clamp(2.3vw,2.5vw,2.6vw);
+}
+p{
+	font-size:clamp(1vw,1.2vw,1.3vw);
+}
+@media only screen and (max-height: 900px) and (max-width:700px) {
+
+#car{
+	height:35vh;
+}
+.welcome img{
+	display:flex;
+	position:relative;
+	margin:auto;
 	width:80%;
 	height:10%;
 }
-@media only screen and (max-height: 900px) and (max-width:550px) {
-
-#car{
-	height:30vh;
+.txt{
+	padding:15px;
+}
+h4{
+	font-size:clamp(5.2vw,5.3vw,5.5vw);
+}
+p{
+	font-size:clamp(4vw,4.3vw,4.5vw);
 }
 }
