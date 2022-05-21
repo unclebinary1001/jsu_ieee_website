@@ -61,7 +61,18 @@
 .conbox{
 	background-color:white;
 }
-
+.contain{
+	position:relative;
+	display: flex;
+	align-items: center;
+	overflow-y:hidden;
+	overflow-x:hidden;
+	padding:0px;
+	width:100%;
+	height:auto;
+	
+	
+}
 .sliderbg{
 	position:relative;
 	max-width:100%;
@@ -74,19 +85,10 @@
 	
 }
 
-.contain{
-	display: flex;
-	align-items: center;
-	overflow-y:hidden;
-	overflow-x:hidden;
-	padding:0px;
-	width:100%;
-	height:auto;
-	margin:auto;
-	
-}
+
 .rotate-slider{
 		justify-content:center;
+		align-items: center;
 		position:relative;
 		margin: 5em auto;	
 		max-width:100%;
