@@ -76,7 +76,7 @@
 
 .contain{
 	overflow-y:hidden;
-	height:60vh;
+	height:300px;
 	overflow-x:hidden;
 	padding:0px;
 	width:100%;
@@ -308,8 +308,7 @@ background-size:cover;
 background-position:center;
 }
 .contain{
-	display:flex;
-	justify-content:center;
+
 	max-width:100%;
 	height:auto;
 	
