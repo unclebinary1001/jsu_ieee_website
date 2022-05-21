@@ -307,11 +307,11 @@
 	
 	background-image: url("rsliderimg/csetn.jpg");
 	background-repeat:no-repeat;
-background-size:contain;
+background-size:cover;
 background-position:center;
 }
 .contain{
-
+	padding:30px;
 	max-width:100%;
 	height:auto;
 	
