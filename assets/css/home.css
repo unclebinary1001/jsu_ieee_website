@@ -9,6 +9,14 @@
 body{
 	display:flex;
 	flex-direction:column;
+		position:relative;
+	max-width:100%;
+	height:auto;
+	background-image: url("rsliderimg/csetn.jpg");
+	background-repeat:no-repeat;
+	background-color:black;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .flexboxbg{
@@ -76,14 +84,7 @@ body{
 	
 }
 .sliderbg{
-	position:relative;
-	max-width:100%;
-	height:auto;
-	background-image: url("rsliderimg/csetn.jpg");
-	background-repeat:no-repeat;
-	background-color:black;
-	background-size: cover;
-	background-attachment: fixed;
+
 	
 }
 
