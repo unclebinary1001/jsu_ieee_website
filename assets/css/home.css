@@ -86,10 +86,10 @@
 
 
 .rotate-slider{
-		justify-content:center;
-		align-items: center;
+	
 		position:relative;
-		margin: auto;	
+		margin: auto;
+		
 		max-width:100%;
 		height:100%;
 		
