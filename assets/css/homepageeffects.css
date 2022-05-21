@@ -113,7 +113,7 @@ body {
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
-  width: 40%;
+  width: 45%;
   animation: type 2s steps(40,end) forwards;
 }
 
@@ -170,5 +170,6 @@ body {
   50% {
     border-color: transparent;
   }
+
 }
 /*hi*/
