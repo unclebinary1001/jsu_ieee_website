@@ -288,6 +288,22 @@ body{
 	
 }
 
+#car{
+	height:25vh;
+}
 
+}
 
+@media only screen and (max-width:450px) {
 
+#car{
+	height:25vh;
+}
+}
+
+@media only screen and (max-width:250px) {
+
+#car{
+	height:10vh;
+}
+}
