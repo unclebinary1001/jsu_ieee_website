@@ -64,12 +64,12 @@
 
 .sliderbg{
 	position:relative;
-	width:100%;
-	height:100%;
+	max-width:100%;
+	height:auto;
 	background-image: url("rsliderimg/csetn.jpg");
 	background-repeat:no-repeat;
 	background-color:black;
-	background-size: 100% 100%;
+	background-size: contain;
 	background-attachment: fixed;
 	padding:0;
 }
@@ -78,7 +78,7 @@
 	display: flex;
 	align-items: center;
 	overflow-y:hidden;
-	height:60vh;
+	height:400px;
 	overflow-x:hidden;
 	padding:0px;
 	width:100%;
@@ -86,7 +86,7 @@
 	
 }
 .rotate-slider{
-		justify-content::center;
+		justify-content:center;
 		position:relative;
 		margin: 5em auto;	
 		max-width:100%;
@@ -112,7 +112,7 @@
 	}
 	.rotate-slider ul.slides li{
 		background-position: center;
-		background-size: cover;
+		background-size: contain;
 		display: block;
 		color: #fff;
 		list-style: none;
@@ -122,7 +122,8 @@
 		text-align: center;
 		-ms-transform-origin: bottom center;
 		transform-origin: bottom center;
-		width: 100%;
+		max-width: 100%;
+		height:auto;
 	}
 	.rotate-slider ul.slides li:nth-of-type(1){position:relative; background: url("rsliderimg/jpgimg/cset.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
 	.rotate-slider ul.slides li:nth-of-type(2){background: url("rsliderimg/jpgimg/inside.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
@@ -306,7 +307,7 @@
 	
 	background-image: url("rsliderimg/csetn.jpg");
 	background-repeat:no-repeat;
-background-size:cover;
+background-size:contain;
 background-position:center;
 }
 .contain{
