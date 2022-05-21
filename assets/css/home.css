@@ -6,7 +6,18 @@
   }
 }
  
-
+body{
+	display:flex;
+	flex-direction:column;
+		position:relative;
+	max-width:100%;
+	height:auto;
+	background-image: url("rsliderimg/csetn.jpg");
+	background-repeat:no-repeat;
+	background-color:black;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
 .flexboxbg{
 	
@@ -61,35 +72,36 @@
 .conbox{
 	background-color:white;
 }
-
-.sliderbg{
-	position:relative;
-	width:100%;
-	height:100%;
-	background-image: url("rsliderimg/csetn.jpg");
-	background-repeat:no-repeat;
-	background-color:black;
-	background-size: 100% 100%;
-	background-attachment: fixed;
-	padding:0;
-}
-
 .contain{
+	position:relative;
+	display: flex;
 	overflow-y:hidden;
-	height:60vh;
 	overflow-x:hidden;
-	padding:0px;
+	padding:10px;
 	width:100%;
-	margin:auto;
+	height:auto;
+	
 	
 }
+.sliderbg{
+
+	
+}
+
+
 .rotate-slider{
+		justify-content:center;
+		align-items: center;
 		position:relative;
-		margin: 5em auto;	
-		width: 100%;
+		
+		margin: auto;
+		margin-top:5%;
+		max-width:100%;
+		height:100%;
 		
 	}
 .rotate-slider ul.slides{
+		max-width:100%;
 		height: 100%;
 		margin: 0;
 		
@@ -107,7 +119,7 @@
 	}
 	.rotate-slider ul.slides li{
 		background-position: center;
-		background-size: cover;
+		background-size: contain;
 		display: block;
 		color: #fff;
 		list-style: none;
@@ -117,16 +129,17 @@
 		text-align: center;
 		-ms-transform-origin: bottom center;
 		transform-origin: bottom center;
-		width: 100%;
+		max-width: 100%;
+		height:auto;
 	}
-	.rotate-slider ul.slides li:nth-of-type(1){position:relative; background: url("rsliderimg/cset.png");background-size:contain; background-repeat:no-repeat;border-radius:15px;}
-	.rotate-slider ul.slides li:nth-of-type(2){background: url("rsliderimg/inside.png");background-size:contain; background-repeat:no-repeat;border-radius:15px;}
-	.rotate-slider ul.slides li:nth-of-type(3){background: url("rsliderimg/outside.png");background-size:contain; background-repeat:no-repeat;border-radius:15px;}
-	.rotate-slider ul.slides li:nth-of-type(4){background: url("rsliderimg/inside2.png");background-size:contain; background-repeat:no-repeat;border-radius:15px;}
-	.rotate-slider ul.slides li:nth-of-type(5){background: url("rsliderimg/outside2.jpg");background-size:contain; background-repeat:no-repeat;border-radius:15px;}
-	.rotate-slider ul.slides li:nth-of-type(6){background: url("rsliderimg/inside7.png");background-size:contain; background-repeat:no-repeat;border-radius:15px;}
+	.rotate-slider ul.slides li:nth-of-type(1){position:relative; background: url("rsliderimg/jpgimg/cset.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
+	.rotate-slider ul.slides li:nth-of-type(2){background: url("rsliderimg/jpgimg/inside.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
+	.rotate-slider ul.slides li:nth-of-type(3){background: url("rsliderimg/jpgimg/outside.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
+	.rotate-slider ul.slides li:nth-of-type(4){background: url("rsliderimg/jpgimg/inside2.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
+	.rotate-slider ul.slides li:nth-of-type(5){background: url("rsliderimg/outside2.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
+	.rotate-slider ul.slides li:nth-of-type(6){background: url("rsliderimg/jpgimg/inside7.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
 	.rotate-slider ul.slides li .inner{
-		box-sizing: border-box;
+		
 		padding: 2em;
 		height: 100%;
 		width: 100%;
@@ -301,14 +314,141 @@
 	
 	background-image: url("rsliderimg/csetn.jpg");
 	background-repeat:no-repeat;
-background-size:cover;
+background-size:fill;
 background-position:center;
+ image-rendering: pixelated;
+ 
+
 }
 .contain{
-	height:35vh;
+	padding:3px;
+	max-width:100%;
+	display:flex;
+	height:auto;
+	
+}
+.rotate-slider{
+margin-top:10%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 #car{
-	height:25vh;
+	max-width:100%;
+	height:auto;
+}
+}
+@media only screen and (max-height: 900px) and (max-width:420px){
+.sliderbg{
+	position:relative;
+	
+	background-image: url("rsliderimg/csetn.jpg");
+	background-repeat:no-repeat;
+background-size:fill;
+background-position:center;
+ image-rendering: pixelated;
+ 
+
+}
+.contain{
+	padding:3px;
+	max-width:100%;
+	display:flex;
+	height:30vh;
+	
+}
+.rotate-slider{
+margin-top:15%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#car{
+	max-width:100%;
+	height:auto;
 }
 }
 
+@media only screen and (max-width:400px){
+.contain{
+	height:40vh;
+}
+}
+@media only screen and (max-width:390px){
+.contain{
+	height:35vh;
+}
+}
+/*Pixle 5*/
+@media only screen and (max-width:393px){
+.contain{
+	height:32vh;
+}
+}
+/*Galaxy S20*/
+@media only screen and (max-width:420px){
+.contain{
+	height:30vh;
+}
+.rotate-slider{
+	margin-top:15%;
+}
+}
+/*IPAD AIR*/
+@media only screen and (max-width:830px){
+.contain{
+	height:35vh;
+}
+.rotate-slider{
+	margin-top:10%;
+}
+}
+/*surface pro*/
+@media only screen and (max-width:920px){
+.rotate-slider{
+	margin-top:10%;
+}
+}
+/*Surface Duo*/
+@media only screen and (max-width:540px){
+.contain{
+	height:40vh;
+}
+}
+/*Galaxy Fold*/
+@media only screen and (max-width:720px){
+.contain{
+	height:85vh;
+}
+}
+@media only screen and (max-width:300px){
+.contain{
+	height:40vh;
+}
+.rotate-slider{
+	margin-top:30%;
+}
+}
+@media only screen and (max-height: 280px) and (max-width:660px){
+
+.contain{
+	height:110vh;
+	
+}
+
+}
+@media only screen and (max-width:415px){
+.contain{
+	height:25vh;
+}
+}
+@media only screen and (max-width:375px){
+.contain{
+	height:28.5vh;
+}
+}
+@media only screen and (max-width:360px){
+.rotate-slider{
+	margin-top:14%;
+}
+}

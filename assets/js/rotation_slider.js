@@ -2,7 +2,7 @@
 $(function(){
 	/* Settings */
 	var rotateSlider = {
-	  slideHeight : 260,
+	  slideHeight : 360,
 	  slideWidth : 480,
 	};
   
