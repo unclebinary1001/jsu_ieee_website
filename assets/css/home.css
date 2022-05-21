@@ -20,6 +20,7 @@ body{
 	background-repeat:no-repeat;
 	background-color:black;
 	background-size: cover;
+	background-position:center;
 	background-attachment: fixed;
 	
 }
@@ -86,7 +87,7 @@ body{
 	
 	position:relative;
 	margin:auto;
-	margin-top:5%;
+	margin-top:2%;
 	width:270px;
 	height:220px;
 	transform-style:preserve-3d;
@@ -295,9 +296,12 @@ body{
 }
 
 @media only screen and (max-width:450px) {
-
+.slider{
+	margin-top:5%;
+}
 #car{
 	height:25vh;
+	
 }
 }
 
