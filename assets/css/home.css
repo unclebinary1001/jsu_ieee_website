@@ -88,8 +88,7 @@
 .rotate-slider{
 	
 		position:absolute;
-		margin: auto;
-		
+		justify-content:center;
 		max-width:100%;
 		height:auto;
 		
