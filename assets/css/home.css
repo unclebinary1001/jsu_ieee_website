@@ -308,11 +308,13 @@ background-position:center;
 .contain{
 	display:flex;
 	justify-content:center;
+	max-width:100%;
 	height:auto;
 	
 }
 #car{
-	height:25vh;
+	max-width:100%;
+	height:auto;
 }
 }
 
