@@ -79,7 +79,7 @@
 	background-image: url("rsliderimg/csetn.jpg");
 	background-repeat:no-repeat;
 	background-color:black;
-	background-size: 100% 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	
 }
@@ -310,10 +310,10 @@
 	
 	background-image: url("rsliderimg/csetn.jpg");
 	background-repeat:no-repeat;
-background-size:cover;
+background-size:fill;
 background-position:center;
  image-rendering: pixelated;
-  -ms-interpolation-mode: nearest-neighbor;
+ 
 
 }
 .contain{
@@ -324,8 +324,11 @@ background-position:center;
 }
 .rotate-slider{
 		
-		
-	}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 #car{
 	max-width:100%;
 	height:auto;
