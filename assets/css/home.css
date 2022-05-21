@@ -69,7 +69,7 @@
 	background-image: url("rsliderimg/csetn.jpg");
 	background-repeat:no-repeat;
 	background-color:black;
-	background-size: cover;
+	background-size: 100% 100%;
 	background-attachment: fixed;
 	padding:10px;
 }
@@ -306,7 +306,7 @@
 	position:relative;
 	
 	background-image: url("rsliderimg/csetn.jpg");
-	background-repeat:no-repeat;
+	background-repeat:repeat;
 background-size:cover;
 background-position:center;
 }
