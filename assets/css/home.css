@@ -299,6 +299,9 @@ body{
 }
 
 @media only screen and (max-width:450px) {
+	body{
+	background-size:contain;	
+	}
 .slider{
 	margin-top:5%;
 }
