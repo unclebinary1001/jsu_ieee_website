@@ -15,14 +15,8 @@ body{
 		position:relative;
 		overflow-x:none;
 	max-width:100%;
-	background-image: url("rsliderimg/csetn.jpg");
-	background-repeat:no-repeat;
-	background-color:black;
-	background-size: cover;
-	-webkit-background-size: cover;
-        -moz-background-size: cover;
-	 -o-background-size: cover;
-	background-position:center;
+	background-color:rgb(1,30,65);
+
 
 	
 }
