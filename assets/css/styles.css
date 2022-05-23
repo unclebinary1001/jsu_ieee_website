@@ -23,6 +23,7 @@ body{
 }
 
 .navbar{
+	position:sticky;
 	background-color:rgb(1,30,65);
 	height: 72px;
 	width:100%;
