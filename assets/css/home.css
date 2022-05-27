@@ -5,18 +5,27 @@
     position: relative;
   }
 }
- 
+ html{
+	 	overflow-x:hidden;
+ }
 body{
 	display:flex;
+	
 	flex-direction:column;
 		position:relative;
+		overflow-x:none;
 	max-width:100%;
 	height:auto;
 	background-image: url("rsliderimg/csetn.jpg");
 	background-repeat:no-repeat;
 	background-color:black;
 	background-size: cover;
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+		 -o-background-size: cover;
+	background-position:center;
 	background-attachment: fixed;
+	
 }
 
 .flexboxbg{
@@ -72,78 +81,56 @@ body{
 .conbox{
 	background-color:white;
 }
-.contain{
+.sbg{
+	display:flex;
+	height:280px;
+	max-width:100%;
+}
+.slider{
+	
 	position:relative;
-	display: flex;
-	overflow-y:hidden;
-	overflow-x:hidden;
-	padding:10px;
+	margin:auto;
+	margin-top:2%;
+	width:270px;
+	height:220px;
+	transform-style:preserve-3d;
+	animation:animate 20s linear infinite;
+}
+@keyframes animate{
+	0%{
+		transform: perspective(1000px) rotateY(0deg);
+	}
+	100%{
+		transform:perspective(1000px) rotateY(360deg);
+	}
+		
+	
+}
+.slider span{
+
+	position:absolute;
+
+	top:0;
+	left:0;
 	width:100%;
-	height:auto;
-	
-	
-}
-.sliderbg{
+	height:100%;
+	transform-origin:center;
+	transform-style:preserve-3d;
+	transform: rotateY(calc(var(--i)*60deg)) translateZ(400px);
 
-	
 }
 
+.slider span img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	object-fit:contain;
+}
 
-.rotate-slider{
-		justify-content:center;
-		align-items: center;
-		position:relative;
-		
-		margin: auto;
-		margin-top:5%;
-		max-width:100%;
-		height:100%;
-		
-	}
-.rotate-slider ul.slides{
-		max-width:100%;
-		height: 100%;
-		margin: 0;
-		
-		padding: 0px;
-		position: relative;
-			top: 10%;
-			left: 50%;
-		-ms-transform-origin: center center;
-		transform-origin: center center;
-		width: 100%;
-	}
-	.rotate-slider ul.slides.animate{
-		-webkit-transition: all 0.75s ease-in-out;
-		transition: all 0.75s ease-in-out;
-	}
-	.rotate-slider ul.slides li{
-		background-position: center;
-		background-size: contain;
-		display: block;
-		color: #fff;
-		list-style: none;
-		position: absolute;
-			top: 0;
-			left: 50%;
-		text-align: center;
-		-ms-transform-origin: bottom center;
-		transform-origin: bottom center;
-		max-width: 100%;
-		height:auto;
-	}
-	.rotate-slider ul.slides li:nth-of-type(1){position:relative; background: url("rsliderimg/jpgimg/cset.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
-	.rotate-slider ul.slides li:nth-of-type(2){background: url("rsliderimg/jpgimg/inside.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
-	.rotate-slider ul.slides li:nth-of-type(3){background: url("rsliderimg/jpgimg/outside.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
-	.rotate-slider ul.slides li:nth-of-type(4){background: url("rsliderimg/jpgimg/inside2.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
-	.rotate-slider ul.slides li:nth-of-type(5){background: url("rsliderimg/outside2.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
-	.rotate-slider ul.slides li:nth-of-type(6){background: url("rsliderimg/jpgimg/inside7.jpg");background-size:contain; background-repeat:no-repeat;border-radius:4px;}
-	.rotate-slider ul.slides li .inner{
-		
-		padding: 2em;
-		height: 100%;
-		width: 100%;
-	}
+
+
 .image img {
   display: block;
 }
@@ -305,154 +292,25 @@ body{
 	
 }
 
-
-}
-
-@media only screen and (max-height: 900px) and (max-width:600px){
-.sliderbg{
-	position:relative;
-	
-	background-image: url("rsliderimg/csetn.jpg");
-	background-repeat:no-repeat;
-background-size:fill;
-background-position:center;
- image-rendering: pixelated;
- 
-
-}
-.contain{
-	padding:3px;
-	max-width:100%;
-	display:flex;
-	height:auto;
-	
-}
-.rotate-slider{
-margin-top:10%;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
 #car{
-	max-width:100%;
-	height:auto;
-}
-}
-@media only screen and (max-height: 900px) and (max-width:420px){
-.sliderbg{
-	position:relative;
-	
-	background-image: url("rsliderimg/csetn.jpg");
-	background-repeat:no-repeat;
-background-size:fill;
-background-position:center;
- image-rendering: pixelated;
- 
-
-}
-.contain{
-	padding:3px;
-	max-width:100%;
-	display:flex;
-	height:30vh;
-	
-}
-.rotate-slider{
-margin-top:15%;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-#car{
-	max-width:100%;
-	height:auto;
-}
-}
-
-@media only screen and (max-width:400px){
-.contain{
-	height:40vh;
-}
-}
-@media only screen and (max-width:390px){
-.contain{
-	height:35vh;
-}
-}
-/*Pixle 5*/
-@media only screen and (max-width:393px){
-.contain{
-	height:32vh;
-}
-}
-/*Galaxy S20*/
-@media only screen and (max-width:420px){
-.contain{
-	height:30vh;
-}
-.rotate-slider{
-	margin-top:15%;
-}
-}
-/*IPAD AIR*/
-@media only screen and (max-width:830px){
-.contain{
-	height:35vh;
-}
-.rotate-slider{
-	margin-top:10%;
-}
-}
-/*surface pro*/
-@media only screen and (max-width:920px){
-.rotate-slider{
-	margin-top:10%;
-}
-}
-/*Surface Duo*/
-@media only screen and (max-width:540px){
-.contain{
-	height:40vh;
-}
-}
-/*Galaxy Fold*/
-@media only screen and (max-width:720px){
-.contain{
-	height:85vh;
-}
-}
-@media only screen and (max-width:300px){
-.contain{
-	height:40vh;
-}
-.rotate-slider{
-	margin-top:30%;
-}
-}
-@media only screen and (max-height: 280px) and (max-width:660px){
-
-.contain{
-	height:110vh;
-	
-}
-
-}
-@media only screen and (max-width:415px){
-.contain{
 	height:25vh;
 }
+
 }
-@media only screen and (max-width:375px){
-.contain{
-	height:28.5vh;
+
+@media only screen and (max-width:450px) {
+.slider{
+	margin-top:5%;
+}
+#car{
+	height:25vh;
+	
 }
 }
-@media only screen and (max-width:360px){
-.rotate-slider{
-	margin-top:14%;
+
+@media only screen and (max-width:250px) {
+
+#car{
+	height:10vh;
 }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 7d6525575849c636eb4aa74af775098c580290ba
