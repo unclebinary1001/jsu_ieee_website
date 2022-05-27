@@ -9,12 +9,22 @@
 .txt{
 	padding:10px;
 }
+<<<<<<< HEAD
 
 
 
 
 
 @media only screen and (max-height:900px) and (max-width:700px) {
+=======
+h4{
+	font-size:clamp(1.3vw,1.5vw,1.6vw);
+}
+p{
+	font-size:15px;
+}
+@media only screen and (max-height: 900px) and (max-width:700px) {
+>>>>>>> f4b1c03b208598768e8a4cecfd3a0d3f2966b173
 
 #car{
 	height:30vh;
@@ -37,6 +47,7 @@
 #car{
 	height:25vh;
 }
+<<<<<<< HEAD
 
 
 }
@@ -96,3 +107,6 @@
 		height:20vh;
 	}
 }
+=======
+}
+>>>>>>> f4b1c03b208598768e8a4cecfd3a0d3f2966b173
