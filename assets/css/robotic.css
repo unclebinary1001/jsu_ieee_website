@@ -12,11 +12,11 @@
 
 /*slider project*/
 
-section{
+#proj{
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vH;
+  height: 130vh;
   background-color: #F5F5F5;
   font-family: Roboto;
 }
@@ -25,10 +25,11 @@ h1{
   font-size: 40pt;
   font-weight: 500;
   color: #363638;
+  margin-top:2%;
 }
 
 .container {
-  margin-top: 50px;
+  margin-top:1%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
