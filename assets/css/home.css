@@ -15,7 +15,6 @@ body{
 		position:relative;
 		overflow-x:none;
 	max-width:100%;
-<<<<<<< HEAD
 	height:auto;
 	background-image: url("rsliderimg/csetn.jpg");
 	background-repeat:no-repeat;
@@ -26,11 +25,6 @@ body{
 		 -o-background-size: cover;
 	background-position:center;
 	background-attachment: fixed;
-=======
-	background-color:rgb(1,30,65);
-
-
->>>>>>> f4b1c03b208598768e8a4cecfd3a0d3f2966b173
 	
 }
 
@@ -319,8 +313,4 @@ body{
 #car{
 	height:10vh;
 }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f4b1c03b208598768e8a4cecfd3a0d3f2966b173
