@@ -21,9 +21,11 @@ body{
 	
 	
 }
-
+.concolor{
+	background-color:rgb(1,30,65);
+	
+}
 .navbar{
-	position:sticky;
 	background-color:rgb(1,30,65);
 	height: 72px;
 	width:100%;
@@ -139,7 +141,4 @@ body{
 	background-color:white;
 	color: #009BDE;
 	border-radius: 4px;
-}
-.bot{
-	bottom:0;
 }
