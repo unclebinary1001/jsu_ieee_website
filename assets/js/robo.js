@@ -66,10 +66,7 @@ function fillOut(id, img){
 span.onclick = function() {
     modal.style.display = "none";
 }
-//close model w exit button
-exit.onclick = function(){
-	modal.style.display = "none";
-}
+
 
 window.onclick = function(event) {
     if (event.target == modal) {
