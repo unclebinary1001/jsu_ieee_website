@@ -28,13 +28,13 @@ h1{
   margin-top:2%;
 }
 
-.container {
+.container1 {
   margin-top:1%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 80%;
-  border
+  
 }
 
 .item {
@@ -59,7 +59,7 @@ h1{
   transition: all 0.35s ease-in-out;
 }
 
-img {
+#imp {
   max-width: 100%;
   vertical-align: top;
   height: 310px;

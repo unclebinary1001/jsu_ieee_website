@@ -7,7 +7,7 @@ var modalInfo = {
   },
   2: {
     title: "VEX Robot",
-    info: "Thee JSU Robotics club consist of building vex robots with th eprogram language of Python.",
+    info: "THEE JSU Robotics club consist of building vex robots with th eprogram language of Python.",
     link: "#",
     github: "#"
   },
@@ -55,7 +55,7 @@ function fillOut(id, img){
   document.getElementById("info").innerHTML = modalInfo[id].info;
   document.getElementById("img").src = img;
   document.getElementById("live").onclick = function(){
-    window.open(modalInfo[id].link,'_blank');
+    modal.style.display = "none";
   }
   document.getElementById("github").onclick = function(){
     window.open(modalInfo[id].github,'_blank');
@@ -65,6 +65,10 @@ function fillOut(id, img){
 // close the modal
 span.onclick = function() {
     modal.style.display = "none";
+}
+//close model w exit button
+exit.onclick = function(){
+	modal.style.display = "none";
 }
 
 window.onclick = function(event) {
