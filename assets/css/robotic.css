@@ -24,7 +24,7 @@
 h1{
   font-size: 40pt;
   font-weight: 500;
-  color: #363638;
+  color: rgb(1,30,65);
   margin-top:2%;
 }
 
@@ -34,6 +34,7 @@ h1{
   justify-content: center;
   flex-wrap: wrap;
   width: 80%;
+  border
 }
 
 .item {
@@ -47,6 +48,7 @@ h1{
   text-align: center;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-sizing: border-box;
+  
 }
 
 .item:hover{
@@ -64,7 +66,9 @@ img {
 }
 
 .item:hover img {
-  opacity: 0;
+	
+  opacity: 0.15;
+  
 }
 
 .text{
@@ -73,11 +77,11 @@ img {
   position: absolute;
   top: -100px;
   left: 10%;
-  color: #01A2AC;
+  color: black;
 }
 
 .text h3{
-  color: black;
+  color: rgb(1,30,65);
 }
 
 .item:hover .text{
@@ -93,14 +97,14 @@ img {
   bottom: -100px;
   left: 25%;
   width: 50%;
-  border: 3px solid #01A2AC;
+  border: 3px solid #009BDE;;
   padding: 15px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
 }
 
 .button:hover{
-  background-color: #01A2AC;
+  background-color: #009BDE;;
   color: #F5F5F5;
 }
 
@@ -163,8 +167,8 @@ img {
 #details .button{
   position: absolute;
   width: 30%;
-  background-color: #01A2AC;
-  color: #F5F5F5;
+  background-color: rgb(1,30,65);
+  color: white;
   text-align: center;
   left: 25px;
   bottom: 35px;
@@ -183,6 +187,7 @@ img {
 i:hover{
   cursor: pointer;
   opacity: 0.8;
+  background-color:#009BDE;
 }
 
 /* Close Button */

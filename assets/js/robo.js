@@ -1,37 +1,25 @@
 var modalInfo = {
   1: {
-    title: "Project 1",
-    info: "...",
+    title: "Robotics Club Location",
+    info: "JSU Robitics presents our new room, to work on projects within the Engineering Building. Included within this area is a study area, mutiple hardware and software workspaces, and a microprocessing lab.",
     link: "#",
     github: "#"
   },
   2: {
-    title: "Project 2",
-    info: "...",
+    title: "VEX Robot",
+    info: "Thee JSU Robotics club consist of building vex robots with th eprogram language of Python.",
     link: "#",
     github: "#"
   },
   3: {
-    title: "Project 3",
-    info: "...",
+    title: "Machine",
+    info: "Check out our cool machine!",
     link: "#",
     github: "#"
   },
   4: {
-    title: "Project 4",
-    info: "....",
-    link: "#",
-    github: "#"
-  },
-  5: {
-    title: "Project 5",
-    info: "...",
-    link: "#",
-    github: "#"
-  },
-  6: {
-    title: "Project 6",
-    info: "...",
+    title: "Other Robots",
+    info: "Here are some other robots that THEE JSU Robotics team has built.",
     link: "#",
     github: "#"
   }
